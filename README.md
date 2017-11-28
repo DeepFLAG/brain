@@ -121,10 +121,11 @@ Our network model gives a nice work on predicting the vertices of the tessellati
 ### Zhang-Suen Thinning Algorithm
 The line-thinner is based on Zhang-Suen Thinning Algorithm, which detects and changes the condition of the neigher points pixel by pixel iteratively. The skeletonization results are shown as follow. From the figure, we can see the vertices boundary are significantly thinner.
 
-<img src="images/14.png" width="600" height="300">
+<img src="images/14.jpeg" width="600" height="300">
 
 (Notice: We do not mean this result is better than the output of the Network. We just want to know if the final result can be modified by adding some extra optimization algorithm on Graph Processing.)
 
 ## References
 [1] [Xie, S. and Tu, Z., 2015. Holistically-nested edge detection. In Proceedings of the IEEE international conference on computer vision (pp. 1395-1403)](https://arxiv.org/pdf/1504.06375.pdf)
-[2] Page48-50, "Character Recognition Systems: A Guide for Students and Practitioners" By Mohamed Cheriet, Nawwaf Kharma, Cheng-Lin Liu, Ching Suen 
+
+[2] [Cheriet, M., Kharma, N., Liu, C.L. and Suen, C., 2007. Character recognition systems: a guide for students and practitioners (pp. 48-50)](https://pdfs.semanticscholar.org/74d6/68256131f379d63a3d484ccff513f5bbb6d3.pdf)
